@@ -1,0 +1,4 @@
+node_modules
+config/mongo.js
+public/javascripts/templates.js
+

@@ -1,0 +1,18 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span3">
+      <ul class="nav nav-list well">
+        <li>{{#linkTo settings.profile}}<i class="icon-user"></i> Perfil {{/linkTo}}</li>
+        <li>{{#linkTo settings.contact}}<i class="icon-bullhorn"></i> Contato {{/linkTo}}</li>
+        <li>{{#linkTo settings.address}}<i class="icon-map-marker"></i> Endereço {{/linkTo}}</li>
+        <li>{{#linkTo settings.photo}}<i class="icon-picture"></i> Foto {{/linkTo}}</li>
+        <li>{{#linkTo settings.password}}<i class="icon-wrench"></i> Senha {{/linkTo}}</li>
+      </ul>
+    </div><!--/span-->
+    <div class="span9">
+      <div class="page-header">
+      	{{outlet}}
+      </div>
+    </div>
+  </div>
+</div>
